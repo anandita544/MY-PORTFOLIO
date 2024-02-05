@@ -1,0 +1,124 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Arial Narrow Bold';
+    font-style: italic;
+}
+.container{
+    min-height:100vh;
+    width:100%;
+    display:flex;
+    
+}
+.navlist{
+    display:flex;
+    
+    gap:3.5rem;
+    justify-content: center;
+    height: 13vh;
+    width:100%;
+    
+    align-items: center;
+    position: fixed;
+}
+.navlist li{
+    list-style:none;
+    
+}
+.navlist a{
+    text-decoration: none;
+    color:white;
+}
+.left-container,.right-container{
+    height:100vh;
+    
+}
+
+.left-container{
+    display:flex;
+    background :linear-gradient(#463e3e 20%,rgb(1, 1, 48));
+    width:70%;
+   
+}
+.right-container{
+    
+    width:30%;
+    background: linear-gradient(#363333 20%,rgb(23, 23, 87) ,#363333);
+
+    
+
+}
+.icons{
+    color:white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    margin-left: 40px;
+    margin-top: 30%;
+    
+    }
+   .content{
+    margin-left: 18%;
+    margin-top: 25%;
+    color:rgb(1, 1, 22);
+    font-size: 20px;
+    
+   } 
+   .design .circle{
+    aspect-ratio: 1;
+    border-radius: 50%;
+    position: absolute;
+    top:50%;
+    left:70%;
+    transform: translate(-50%,-50%);
+   }
+   .circle:nth-child(1){
+    background: linear-gradient(90deg, black 50%,black 50%);
+    width:27rem;
+    box-shadow:inset  0 0 1rem white;
+   }
+   .circle:nth-child(2)
+   {
+    background-color: white;
+    width:23rem;
+    background-image: url(Untitled4.jpg);
+    background-size: 100%;
+    
+    background-repeat: no-repeat;
+    box-shadow: 0 0 1rem rgb(1, 1, 46),inset 0 0 1rem white,0 0 2rem rgb(1, 1, 49),inset 0 0 2rem,0 0 2rem rgb(8, 8, 53),0 0 2rem rgb(5, 5, 37);
+
+   }
+   .navlist a:hover{
+color:blue;
+   }
+   .icons i:hover{
+    color:blue;
+   }
+   button{
+    color:white;
+    background-color: black;
+    border-radius: 10px;
+    height: 30px;
+    padding: 5px;
+    
+
+    
+   }
+   .cv{
+    margin-left: 130px;
+    margin-top: 50px;
+    
+   }
+   p{
+    font-size: 40px;
+    margin-top:15px;
+    margin-left: 18px;
+    
+   }
+   .cv :hover{
+    color:blue;
+   }
+   
